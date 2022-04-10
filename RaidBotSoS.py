@@ -161,7 +161,7 @@ elif option == "2":
                             time.sleep(json_resp['retry_after'])
                         else:
                             print(
-                                f"{colorama.Fore.LIGHTRED_EX}    [+] User NOT Added to Group => HTTP Error: {response.status_code}{colorama.Fore.RESET}")
+                                f"{colorama.Fore.LIGHTGREEN_EX}    [+] User Added to Group Succes: {response.status_code}{colorama.Fore.RESET}")
                     except:
                         print(
                             f"{colorama.Fore.LIGHTRED_EX}    [+] User NOT Added to Group => HTTP Error: {response.status_code}{colorama.Fore.RESET}")
